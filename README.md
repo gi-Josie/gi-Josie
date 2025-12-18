@@ -2,7 +2,7 @@
 
 🌱 I’m currently learning about CyberSecurity while watching videos from Y Combinator's startup school ... 
 I'm also working on a new blog, one version for here on github and one on Ghost. 
-My name is Josie Scott and I hope you'll visit : https://darkhorse.ghost.io/ 
+My name is Josie Scott and I hope you'll visit : https://gi-josie.github.io/ 
 
 <!--
 **gi-Josie/gi-Josie** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
