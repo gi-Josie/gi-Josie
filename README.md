@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 🌱 I’m currently learning about CyberSecurity while watching videos from Y Combinator's startup school ... 
-I'm also working on a new blog, one version for here on github and one on Ghost. 
+
 My name is Josie Scott and I hope you'll visit : https://gi-josie.github.io/ 
 
 <!--
