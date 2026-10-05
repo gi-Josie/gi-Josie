@@ -17,8 +17,8 @@
   <style>
 
     body {
-  background-color: #121212;
-  color: #e6e4ea;
+  background-color: #e2e2cb;
+  color: #212020;
 }
 
 
@@ -27,15 +27,15 @@ h2,
 h4,
 h6,
 p {
-  color: #e6e4ea;
+  color: #212020;
 }
 
 .post-copy h3 h5 p {
   color: #535151;
 }
 
-.post { font-family: Verdana, sans-serif;
-        font-size: 12px;
+.post { font-family: Cormorant, serif;
+        font-size: 16px;
         padding: 40px 10px 20px 40px;
         text-align: justify;
         line-height: 1.5em; }
@@ -43,16 +43,26 @@ p {
 .main-col { width: 650px;
             margin: 0 auto 0 auto; }
 
-.logo { padding: 20px 0 5px 20px;
+.logo { padding: 20px 0 5px 0;
+        float: left;
         /*position: fixed;*/ }
+
+.donate { padding: 10px 30px 10px 30px;
+          float: right;
+          border: 1px solid #cbcbcb;
+          background-color: #292828;
+          margin: 20px 0 0 0;
+          font-family: Cormorant, serif; }
+
+.donate:hover { background-color: #000; }
 
 .nav { padding: 0 0 5px 20px;
         /*position: fixed;*/ }
 
-.hero { padding: 10px; }
+.hero { padding: 0px 10px 50px 5px; }
 
-.title { padding: 5px 5px 20px 0;
-         float: right; }
+.title { padding: 5px 5px 5px 180px;
+          }
 
 .end { margin: 20px auto 20px auto; }
 
@@ -60,18 +70,19 @@ p {
     padding: 20px;
     margin: 0 auto 0 auto;
     text-align: justify;
-    border: 1px dashed #cbcbcb;
-    background-color: #292828; }
+    border: 1px dashed #292828;
+    background-color: #e4e2a2; }
 
 .button { width: 25px;
           border: 1px solid #cbcbcb;
-          border-radius: 50px;
           background-color: #292828;
           padding-top: 3px;
         }
 
+.button:hover { background-color: #000; }
+
 a {
-  color: #5d6b5d;
+  color: #3cb73c;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -86,6 +97,12 @@ a:hover {
 .sig { margin: 30px auto 10px auto; }
 
 .f-r { float: right; }
+
+.subhead { color: #0e89f3;
+           font-weight: bold; }
+
+.photo-label { font-size: 12px;
+               margin-top: -5px; }
 
   </style>
 
@@ -105,13 +122,13 @@ a:hover {
 <div class="main-col">
 
   <div class="logo">
-    <a name="top" href="author.html"><img src="img/gi-josie-logo-v2.png"></a>
+    <a name="top" href="author.html"><img src="img/darkhorse-icon.png"></a>
   </div>
 
   <img class="hero" src="img/josie-soft.jpg" width="650px"><br />
 
   <div class="title">
-    <a href="index.html"><img src="img/darkhorse-title-v2.png"></a>
+    <a href="index.html"><img src="img/darkhorse-title-v3.png"></a>
   </div>
 
   <div class="post post-copy">
@@ -127,7 +144,7 @@ a:hover {
     <p>An avid reader and quiet friend to felines who can often be found online conversing with various forms of AI.</p>
 
   <div class="end">
-    <center><img src="favicon32x32-v2.png"></center>
+    <center><img src="img/darkhorse-icon-small.png"></center>
   </div>
 
   <a class="button f-r" href="#top"><center><strong>^</strong></center></a>
