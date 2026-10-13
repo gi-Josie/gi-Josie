@@ -16,9 +16,12 @@
 
   <style>
 
-    body {
-  background-color: #121212;
-  color: #e6e4ea;
+    body { background-image:url('img/bafkreiezyjwm6sc6jt2iiduqohk45hrmvwj25ag4sx4ka4ski2s6hlbqam.jpg');
+    /*background-attachment:fixed;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-color: #dcdfd8;
+  color: #212020;
 }
 
 
@@ -28,28 +31,28 @@ h3,
 h4,
 h6,
 p {
-  color: #e6e4ea;
-  font-family: Eras ITC, sans-serif;
+  color: #212020;
+  font-family: Miriam Mono CLM, serif;
 }
 
 .post-copy h3 h5 p {
-  color: #535151;
+  color: #212020;
 }
 
-.post { font-family: Eras ITC, sans-serif;
+.post { font-family: Miriam Mono CLM, serif;
         font-size: 14px;
         /*padding: 10px;*/
         text-align: justify;
         line-height: 1.5em; }
 
 .main-col { width: 650px;
-            margin: 0 auto 0 auto; }
+            margin: 0 80px 0 auto; }
 
-.vcard { width: 400px;
-         height: auto;
+.vcard { width: 600px;
+         height: 1695px;
          margin: 20px auto 0 auto;
-         border: 1px solid #000;
-         border-radius: 10px;
+         /*border: 1px solid #000;
+         border-radius: 10px;*/
           }
 
 .card-header {
@@ -61,11 +64,11 @@ p {
 }
 
 .avatar {
-    width: 100px;
+    width: 95px;
     height: 85px;
     border-radius: 50%;
     overflow: hidden;
-    border: 2px solid var(--accent);
+    border: 2px dashed var(--accent);
     flex-shrink: 0;
 }
 
@@ -83,9 +86,9 @@ p {
         /*position: fixed;*/ }
 
 .download { padding: 5px 10px 5px 10px;
-          font-family: Eras ITC, sans-serif;
+          font-family: Miriam Mono CLM, serif;
           border: 1px solid #cbcbcb;
-          border-radius: 50px;
+          /*border-radius: 50px;*/
           background-color: #292828;
           margin: 50px; }
 
@@ -101,18 +104,18 @@ p {
 
 .end { margin: 10px auto 10px auto; }
 
-.note { /*width: 450px;*/
+.note { 
     padding: 20px;
     margin: 0 auto 0 auto;
     text-align: justify;
-    border: 1px dashed #cbcbcb;
-    background-color: #292828; }
+    border: 1px dashed #292828;
+    background-color: #dbd8c0; }
 
 .button { width: 25px;
           border: 1px solid #cbcbcb;
-          border-radius: 50px;
+          /*border-radius: 50px;*/
           background-color: #292828;
-          padding-top: 3px;
+          padding: 3px;
         }
 
 .button:hover { background-color: #000; }
@@ -135,7 +138,9 @@ a:hover {
 .f-r { float: right; }
 
 .subhead { color: #0e89f3;
-           font-weight: bold; }
+           font-weight: bold;
+           background-color: #dbd8c0;
+           border: 1px dashed #292828; }
 
 .photo-label { font-size: 12px;
                margin-top: -5px; }
@@ -145,7 +150,9 @@ a:hover {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: #000;
+    background-color: #292828;
+    border: 1px dashed #cbcbcb;
+    color: #fff;
     margin-bottom: 8px;
 }
 
@@ -173,10 +180,11 @@ a:hover {
     </div>
 
     <div class="identity">
-      <h3>Joanne "Josie" Dillinger</h3>
-      <p class="post post-copy subhead">
+      <center><h3 class="section-title">Josie Dillinger</h3></center>
+      <div class="note">
+      <center><h3>
         Analyst &bull; Strategist &bull; Designer
-      </p>
+      </h3></center>
       <p class="post">
         <ul class="post post-copy">
           <li>Superforecasting</li>
@@ -185,50 +193,51 @@ a:hover {
         </ul>
       </p>
     </div>
+    </div>
 
   </div><!-- /card-header -->
 
   <div class="card-body">
-    <p class="section-title">
+    <center><p class="section-title">
       Contact
-    </p>
+    </p></center>
 
       <center>
         <p class="post post-copy" style="padding: 20px;">
-        <a href="mailto:joanne@dillinger.ca">joanne@dillinger.ca</a>
+        <a class="button" href="mailto:joanne@dillinger.ca">joanne@dillinger.ca</a>
         &bull;
-        <a href="https://voxmachina.framer.ai" target="_blank">Portfolio</a>
+        <a class="button" href="https://voxmachina.framer.ai" target="_blank">Portfolio</a>
         &bull;
-        <a href="tel:+14377847972">+1.437.784.7972</a>
+        <a class="button" href="tel:+14377847972">+1.437.784.7972</a>
         </p>
       </center>
 
-    <p class="section-title">
+    <center><p class="section-title">
       Download
-    </p>
+    </p></center>
 
  <div class="download">
   <center><a href="https://gi-josie.github.io/gi-Josie/jdillinger-resume.pdf" target="_blank">Resume &bull; PDF</a></center>
  </div>
 
-    <p class="section-title">
+    <center><p class="section-title">
       Summary
-    </p>
+    </p></center>
 
     <div class="note">
       <p class="post post-copy">
         Full‑stack digital producer and analyst with experience across financial services, media, and emerging technology. Blends front‑end development, analytics, and design with AI‑driven forecasting and content optimization. Known for improving digital workflows, enhancing user experience, delivering high‑quality production across enterprise and startup environments; collaborating with analytics, compliance, and design teams to optimize performance and ensure brand consistency with speed and accuracy. 
       </p>
+
+      <div class="end">
+      <center><img src="img/darkhorse-icon-small.png"></center>
+      </div> 
+
     </div>
 
   </div><!-- /card-body -->
 
 </div>
-  
-
-  <div class="end">
-    <center><img src="favicon32x32-v2.png"></center>
-  </div>
 
 
 </div><!-- /main-col -->
