@@ -111,6 +111,45 @@ h3 { color: #0e89f3; }
 .photo-label { font-size: 14px;
                margin-top: -5px; }
 
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+  /* Default to hidden */
+  display: none;
+
+  /* Overlay entire screen */
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  /* A bit of padding around image */
+  padding: 1em;
+
+  /* Translucent background */
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Unhide the lightbox when it's the target */
+.lightbox:target {
+  display: block;
+}
+
+.lightbox span {
+  /* Full width and height */
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  /* Size and position background image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
   </style>
 
 </head>
@@ -159,7 +198,29 @@ h3 { color: #0e89f3; }
     <p>Look what <a class="button" href="https://chatgpt.com/images" target="_blank">ChatGPT</a> did with my profile photos. So cute! How did it know to
     add cats? That wasn't included in the prompt or in the original photos, it just knew somehow.</p> 
 
-    <a href="img/josie-doll.png" target="_blank"><img src="img/josie-doll.png" width="290px"></a> <a href="img/josie-comic.png" target="_blank"><img src="img/josie-comic.png" width="290px"></a>
+
+<!-- thumbnail image wrapped in a link -->
+<a href="#img1">
+  <img src="img/josie-doll.png" width="290px">
+</a>
+
+<!-- lightbox container hidden with CSS -->
+<a href="#" class="lightbox" id="img1">
+  <span style="background-image: url('img/josie-doll.png')"></span>
+</a>
+
+<!-- thumbnail image wrapped in a link -->
+<a href="#img2">
+  <img src="img/josie-comic.png" width="290px">
+</a>
+
+<!-- lightbox container hidden with CSS -->
+<a href="#" class="lightbox" id="img2">
+  <span style="background-image: url('img/josie-comic.png')"></span>
+</a>
+
+
+    <!-- <a href="img/josie-doll.png" target="_blank"><img src="img/josie-doll.png" width="290px"></a> <a href="img/josie-comic.png" target="_blank"><img src="img/josie-comic.png" width="290px"></a> -->
 
     <p>Anyways, I've been reading articles and watching videos about robots. <a class="button" href="https://www.youtube.com/@AgilityRobotics" target="_blank">Agility Robotics'</a> <a class="button" href="https://spectrum.ieee.org/agility-robotics-digit-5-redesign" target="_blank">Digit 5</a> and <a class="button" href="https://bostondynamics.com/" target="_blank">Boston Dynamics'</a> humanoids and dogs. I want one of each!</p>
 
@@ -583,7 +644,7 @@ IN THE TIME OF ARTIFICIAL INTELLIGENCE</p>
     <center><img src="img/darkhorse-icon-small.png"></center>
   </div>
 
-  <a class="f-r" href="#top"><center><img src="img/arrow_drop_up_40dp_212020_FILL0_wght400_GRAD0_opsz40.png"></center></a>
+  <a class="f-r" href="#top" OnMouseOver="img1.src='img/arrow-hover.png'" OnMouseOut="img1.src='img/arrow.png'" onFocus="this.blur()"><img name="img1" src="img/arrow.png"></a>
 
 <div class="sig">
   <h5>&copy; Josie Scott 2026</h5>
